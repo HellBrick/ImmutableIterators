@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A9CA9D6D-9246-4667-BE20-8B9872F2A9F7}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.build.props = Directory.build.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HellBrick.ImmutableIterators", "HellBrick.ImmutableIterators\HellBrick.ImmutableIterators.csproj", "{5CC2519E-FA39-427D-860A-0E7800B3E50E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HellBrick.ImmutableIterators.Test", "HellBrick.ImmutableIterators.Test\HellBrick.ImmutableIterators.Test.csproj", "{AD76E055-FC14-4F94-BA80-D41962856E6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CC2519E-FA39-427D-860A-0E7800B3E50E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC2519E-FA39-427D-860A-0E7800B3E50E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC2519E-FA39-427D-860A-0E7800B3E50E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC2519E-FA39-427D-860A-0E7800B3E50E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD76E055-FC14-4F94-BA80-D41962856E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD76E055-FC14-4F94-BA80-D41962856E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD76E055-FC14-4F94-BA80-D41962856E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD76E055-FC14-4F94-BA80-D41962856E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87E8D3B0-9125-427E-A919-D09C75B115BF}
+	EndGlobalSection
+EndGlobal
